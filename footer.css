@@ -1,0 +1,47 @@
+.a1{
+    background-color: beige;
+}
+.footer{
+    display:flex ;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+.f1{
+    display: inline-block;
+    margin-right: 80px;
+    padding: 20px;
+}
+.f2{
+    display: inline-block;
+    margin-right: 80px;
+    padding: 20px;
+}
+.f3{
+    display: inline-block;
+    margin-right: 80px;
+    padding: 20px;
+}
+.aboutus{
+    font-size: xx-large;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.implink{
+    font-size: xx-large;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.contact{
+    font-size: xx-large;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.text1{
+    font-size: large;
+}
+.text2{
+    font-size: large;
+}
+.text3{
+    font-size: large;
+}
