@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.card1{
+    
+    background-color: rgb(190, 188, 188);
+    height: 400px;
+    width: 376px;
+    margin-top: 220px;
+    margin-left: 100px;
+    
+
+
+    border-top-left-radius: 100px 0px;
+    border-top-right-radius: 0px 50px;
+    border-bottom-right-radius: 623px 128px;
+    border-bottom-left-radius: 77px 58px;
+    
+}
+.card{
+    display: flex;
+    height: 250px;
+    position: absolute;
+    margin-top: -50px;;
+    margin-bottom: 200px;
+    z-index: 1;
+    border-radius: 15px 15px 0px 0px;
+    
+    
+    
+}
+.burger{
+    display: flex;
+    margin-bottom: 20px;
+}
+.carddesc{
+    padding-top: 200px; 
+}
