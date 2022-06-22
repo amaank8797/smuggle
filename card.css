@@ -2,25 +2,36 @@
     margin: 0px;
     padding: 0px;
 }
+.head1{
+    font-size: xx-large;
+    font-weight: 600;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+
+}
 .card1{
     
-    background-color: rgb(190, 188, 188);
+    background-color:rgb(255, 255, 255);
     height: 400px;
-    width: 376px;
-    margin-top: 220px;
-    margin-left: 100px;
-    
-
-
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 150px;
+    border: 1px solid rgba(176, 176, 176, 0.684);
     border-top-left-radius: 100px 0px;
     border-top-right-radius: 0px 50px;
     border-bottom-right-radius: 623px 128px;
     border-bottom-left-radius: 77px 58px;
+    box-shadow: 7px 15px 25px rgb(187, 186, 186);
     
 }
 .card{
     display: flex;
     height: 250px;
+    width: 300px;
     position: absolute;
     margin-top: -50px;;
     margin-bottom: 200px;
@@ -33,7 +44,96 @@
 .burger{
     display: flex;
     margin-bottom: 20px;
+    padding: 10px 20px;
 }
 .carddesc{
     padding-top: 200px; 
 }
+
+ 
+.img1{
+    background-image: url("./edgar-castrejon-1SPu0KT-Ejg-unsplash.jpg");
+    margin-top: 100px;
+    margin-left: 100px;
+    border-radius: 50%;
+    width: 550px;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 10px 14px 20px rgb(97, 97, 97);
+}
+
+.seaction2{
+    display: flex;
+    flex-direction: row;
+}
+.para{
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.line1{
+    margin-bottom: 20px;
+    
+}
+.line2{
+    font-size: 300%;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+.line3{
+    font-size: x-large;
+    font-weight: lighter;
+    color: crimson;
+    margin-bottom: 20px;
+}
+.para > p{
+    width: 50%;
+} 
+
+.section3{
+    margin-top: 200px;
+    margin-left: 300px;
+}
+.top{
+    display: flex;
+
+}
+.head2{
+    font-size: 55px;
+    font-weight: 600;
+}
+.a{
+   display: flex;
+   margin-left: 300px; 
+}
+.a1{
+    padding: 20px;
+    padding-left: 30px;
+    margin-left: 20px;
+    font-size: large;
+}
+.c1{
+    display: flex;
+    margin: 30px 30px;
+    
+}
+
+
+.cardtext{
+    background-color: rgb(242, 244, 244);
+    width: 300px;
+    margin: 0px 0px 0px 10px;
+    padding: 20px 10px;
+    border-radius: 0px 5px 5px 0px;
+    box-shadow: 5px 10px 20px rgb(200, 199, 199);
+
+
+}
+
+.sectiond{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px 100px 100px 15%;
+}
+
