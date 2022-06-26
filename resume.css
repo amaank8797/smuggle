@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.overall{
+    border-style: solid;
+    max-width: fit-content;
+    margin-left: 300px;
+}
+
+.bio{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.pic1{
+    background-image: url("./chef2.jpeg");
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 10px 14px 20px rgb(97, 97, 97);
+}
+.about{
+    margin-left: 50px;
+    color: white;    
+    background-color: rgb(71, 175, 166);
+
+}
+.stream{
+    font-size: larger;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    width: max-content;
+}
+.para1{
+    margin-top: 10px;
+    width: 600px;
+    margin-bottom: 40px;
+}
+.details{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 20 px;
+}
+.l1{
+    margin-bottom: 10px;
+}
+.r1{
+    margin: 20px 50px 30px 30px;
+    width: 250px;
+}
+.r2{
+    margin: 20px 40px 30px 30px;
+    width: 450px;
+}
+h3{
+    color: rgb(71, 175, 166);
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    margin-bottom: 10px;
+}
+h4{
+    color: rgb(71, 175, 166);
+}
+ul{
+    list-style-type: none;
+}
+.b1{
+    width: 90px;
+    margin: 5px;
+    border: none;
+    border-radius: 3px;
+
+    background-color:rgb(71, 175, 166) ;
+    text-align: center;
+    color: white;
+}
+.b2{
+    width: 90px;
+    margin: 5px;
+   border-radius: 3px;
+   border-color: rgb(156, 143, 127);
+    background-color: white;
+    text-align: center;
+}
+.lines{
+    color:rgb(71, 175, 166) ;
+    font-style: italic;
+}
+.lines2{
+    font-size: medium;
+    font-weight: bold;
+}
+.list{
+    margin-bottom: 10px;
+}
+.l2{
+    font-size: large;
+}
