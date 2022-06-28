@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.overall{
+    background-color: rgb(3, 3, 78);
+}
+.footer{
+    display: flex;
+    padding: 50px;
+    margin-left: 30px;
+    color: azure;
+
+}
+.para1{
+    width: 350px;
+    
+}
+.product{
+    margin-left: 150px;
+}
+.link{
+    margin-left: 150px;
+}
+.address{
+    margin-left: 150px;
+}
+h1{
+    margin-bottom: 35px;
+}
+h4{
+    font-size: larger;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.para2{
+    width: 150px;
+}
+li{
+    padding: 5px;
+}
+i{
+    width: 30px;
+    margin-top: 10px;
+}
+span{
+    color: rgb(30, 123, 211);
+}
