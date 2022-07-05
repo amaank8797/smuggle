@@ -1,0 +1,231 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.overall{
+    position: relative;
+    width: 100%;
+    height: 11000px;
+    border: 0px solid white;
+    background-color: white;
+}
+.img1{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 1300px;
+}
+.team{
+    position: absolute;
+    top: 700px;
+    left: 150px;
+    font-size: 250px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+
+}
+.farmersteam{
+    position: absolute;
+    top: 950px;
+    right: 400px;
+    font-size: 300px;
+    font-family: cursive;
+    font-weight: 600;
+    color: rgb(240, 146, 30);
+
+}
+.img2{
+    position: absolute;
+    top: 1060px;
+    width: 100%;
+    height: 500px;
+    border: 0px solid white;
+}
+.h1{
+    position: absolute;
+    top: 1900px;
+    left: 300px;
+    font-size: 70px;
+    font-weight: 600;
+    font-family: cursive;
+    color: rgb(240, 146, 30);
+}
+.h2{
+    position: absolute;
+    top: 2000px;
+    left: 300px;
+    font-size: 140px;
+    font-weight: 600;
+    width: 1500px;
+}
+.para1{
+    position: absolute;
+    top: 1900px;
+    right: 500px;
+    font-size:55px;
+    font-weight: 600;
+    width: 1640px;  
+}
+.para2{
+    position: absolute;
+    top: 2200px;
+    right: 690px;
+    font-size: 45px;
+    width: 1450px;
+}
+.img3{
+    position: absolute;
+    top: 2550px;
+    right: 1650px;
+    width: 500px;
+}
+.signature{
+    position: absolute;
+    top:2600px;
+    right: 900px; 
+    font-size: 55px;
+    font-weight: 600;
+}
+.h3{
+    font-size: 70px;
+    font-weight: 600;
+    font-family: cursive;
+    color: rgb(240, 146, 30);
+    position: absolute;
+    top: 2900px ;
+    left: 300px;
+}
+.h4{
+    position: absolute;
+    top: 3000px;
+    left: 300px;
+    font-size: 120px;
+    font-weight: 600;
+
+}
+.cards{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 3200px;
+    left: 300px;
+
+}
+.card1{
+    
+    background-color:rgb(255, 255, 255);
+    height: 900px;
+    width: 800px;
+    margin-top: 100px;
+    margin-left: 150px;
+    border: 1px solid rgba(176, 176, 176, 0.684);
+    border-radius: 20px;
+    box-shadow: 7px 15px 25px rgb(187, 186, 186);
+    text-align: center;
+    
+}
+.card{
+
+    display: flex;
+    height: 650px;
+    width: 800px;
+    z-index: 1;
+    border-radius: 15px 15px 0px 0px;      
+}
+.name{
+    font-size: 70px;
+    font-weight: 600;
+    margin-top: 30px;
+
+}
+.designation{
+    margin-top: 30px;
+    font-size: 40px;
+}
+.img4{
+    position: absolute;
+    width: 100%;
+    height: 2500px;
+    top: 5600px;
+
+
+}
+.box1{
+    position: absolute;
+    width: 4000px;
+    height: 1500px;
+    top: 6100px;
+    left: 300px;
+    border:  solid white;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+.insidebox1{
+    display: flex;
+}
+.img5{
+    width: 450px;
+    height: 650px;
+    margin-top: 400px;
+    margin-left: 180px;
+    border-radius: 20px;
+}
+.h5{
+    font-size: 80px;
+    font-weight: 600;
+    font-family: cursive;
+    color: rgb(240, 146, 30);
+    margin-bottom: 30px;
+    
+}
+.h6{
+    font-size: 160px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.para3{
+    margin: 200px 0px 0px 100px;
+}
+.insidepara3{
+    font-size: 70px;
+    width: 3000px;
+}
+.name1{
+    font-size: 60px;
+    font-weight: 900;
+    margin-top: 100px;
+}
+.h7{
+    position: absolute;
+    font-size: 80px;
+    font-weight: 600;
+    font-family: cursive;
+    color: rgb(240, 146, 30);
+    top: 8500px;
+    left: 2000px;
+}
+.h8{
+    position: absolute;
+    font-size: 160px;
+    font-weight: 600;
+    top: 8650px;
+    left: 1650px;
+}
+.sponsers{
+    display: flex;
+    position: absolute; 
+    top: 9000px;
+    left: 400px;
+}
+.spon{
+    width: 350px;
+    padding: 0px 150px 0px 150px;
+}
+.bottomimage{
+    position: absolute;
+    width: 100%;
+    top: 9350px;
+}
+
+
