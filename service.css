@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.overall{
+    position: relative;
+    width: 100%;
+    height: 1700px;
+}
+.img1{
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    height: 500px;
+    opacity: 0.7;
+    
+}
+h1{
+    position: absolute;
+    font-family: "Rubik", sans-serif;
+    font-size: 80px;
+    font-weight: lighter;
+    top: 200px;
+    left: 150px;
+    color: #1D4D4F;
+}
+.home{
+    position: absolute;
+    top: 330px;
+    left: 150px;
+    font-size: larger;
+}
+.cards{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+
+    top: 600px;
+    left: 150px ;
+
+}
+.card1{
+    
+    background-color:rgb(255, 255, 255);
+    height: 400px;
+    width: 300px;
+    margin-top: 80px;
+    margin-left: 80px;
+    border: 1px solid rgba(176, 176, 176, 0.684);
+    border-radius: 20px;
+    box-shadow: 7px 15px 25px rgb(187, 186, 186);
+    text-align: center;
+}
+.card1:hover{
+    background-color: #d9ecad;
+}
+.card{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100px;
+    width: 100px;
+    z-index: 1;
+    border-radius: 50%;
+    padding: 30px;
+    background-color: #7FB800;
+
+}
+.name{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 30px;
+
+}
+.designation{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.cardes{
+    padding: 30px 10px 10px 70px;
+}
+
