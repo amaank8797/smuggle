@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.overall{
+    background-color: black;
+}
+.footer{
+    color: azure;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 150px 100px 150px;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    margin-top: 20px;
+}
+.para1{
+    width: 200px;
+}
+.part{
+    border-left: 3px dotted azure;
+}
+.downpart{
+    color: azure;
+    padding-left: 150px;
+    padding-bottom: 50px;
+}
